@@ -192,14 +192,6 @@ Brain-computer interfaces are a **frontier product category**. This project demo
 
 ---
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
-Dataset: [PhysioNet EEGBCI](https://physionet.org/content/eegmmidb/1.0.0/) — open access, CC BY 4.0.
-
----
-
 ## 🙋 Author
 
 **Swapnil Hazra**
