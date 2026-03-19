@@ -198,4 +198,4 @@ Brain-computer interfaces are a **frontier product category**. This project demo
 - X / Twitter: [@SwapnilHazra4](https://twitter.com/SwapnilHazra4)
 - Instagram: [@swapnil_hazra_](https://instagram.com/swapnil_hazra_)
 
-*Part of the [100 Days of Vibe Coding](https://twitter.com/SwapnilHazra4) challenge.*
+*Part of the [100 Days of Vibe Coding](https://github.com/Swapnil-bo) challenge.*
