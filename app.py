@@ -307,5 +307,6 @@ else:
         ax.legend(fontsize=8, framealpha=0.3, labelcolor='white')
         fig.tight_layout()
         st.pyplot(fig, use_container_width=True)
+        st.caption("BioSignal Decoder · PhysioNet EEGBCI · SVM+RF Ensemble · MNE Python · Built by Swapnil")
         plt.close(fig)
 
