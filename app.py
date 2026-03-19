@@ -132,6 +132,10 @@ else:
     # ─────────────────────────── TAB 1 ───────────────────────────────────────
     with tab1:
         st.subheader(f'Per-Epoch Predictions — {n_epochs} epochs')
+        c1, c2, c3 = st.columns(3)
+        c1.metric('😴 Rest',       counts['Rest'],       f"{counts['Rest']/n_epochs*100:.0f}%")
+        c2.metric('🤜 Left Fist',  counts['Left Fist'],  f"{counts['Left Fist']/n_epochs*100:.0f}%")
+        c3.metric('🤛 Right Fist', counts['Right Fist'], f"{counts['Right Fist']/n_epochs*100:.0f}%")
         for i, (pred, prob) in enumerate(zip(preds, probs)):
             label      = LABEL_MAP[pred]
             confidence = prob.max() * 100
