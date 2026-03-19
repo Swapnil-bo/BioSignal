@@ -58,7 +58,9 @@ with st.sidebar:
     - **Sampling**: 160 Hz
     - **Features**: 704 per epoch
     - **Classes**: Rest / L.Fist / R.Fist
-    """)
+    - **Dataset**: PhysioNet EEGBCI
+    - **Subjects**: 109 available
+""")
 
 # ── Upload ────────────────────────────────────────────────────────────────────
 uploaded_file = st.file_uploader('Upload EEG recording (.edf)', type=['edf'])
