@@ -272,6 +272,9 @@ else:
 
         with s2:
             st.subheader('Confidence Histogram')
+            col_min, col_max = st.columns(2)
+            col_min.metric('Min Confidence', f'{confidences.min():.1f}%')
+            col_max.metric('Max Confidence', f'{confidences.max():.1f}%')
             fig, ax = plt.subplots(figsize=(5, 4), facecolor='#0e1117')
             ax.set_facecolor('#262730')
             ax.hist(confidences, bins=15, color='#00bcd4',
