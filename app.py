@@ -147,7 +147,7 @@ else:
         epoch_data = data[ep_idx][:n_plot]
 
         if show_raw_signal:
-            st.subheader(f'Raw EEG — Epoch {ep_idx+1} · Predicted: {LABEL_ICONS[LABEL_MAP[preds[ep_idx]]]} {LABEL_MAP[preds[ep_idx]]}')
+            st.subheader(f'Raw EEG — Epoch {ep_idx+1} of {n_epochs} · {n_plot} channels · Predicted: {LABEL_ICONS[LABEL_MAP[preds[ep_idx]]]} {LABEL_MAP[preds[ep_idx]]} ({confidences[ep_idx]:.0f}% confidence)')
             fig, axes = plt.subplots(n_plot, 1,
                                      figsize=(12, n_plot * 0.65 + 0.5),
                                      facecolor='#0e1117', sharex=True)
